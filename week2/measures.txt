@@ -1,0 +1,4 @@
+Algorithm: DFA 	 Time: 32.84375 secs 	 Pattern: ACGA	 N_Matches: 133188
+Algorithm: Naive 	 Time: 74.234375 secs 	 Pattern: ACGA	 N_Matches: 133188
+Algorithm: KMP 	 Time: 30.84375 secs 	 Pattern: ACGA	 N_Matches: 133188
+Algorithm: Boyer Moore 	 Time: 32.484375 secs 	 Pattern: ACGA N_Matches: 133188

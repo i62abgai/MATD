@@ -1,0 +1,4 @@
+Know if we are in a final state:
+    n = length of pattern
+    X = end state
+    final states = X mod(n+1)
