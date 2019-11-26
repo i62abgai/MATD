@@ -1,0 +1,6 @@
+from os import listdirfrom os.path import isfile, joinimport itertoolsimport osimport re
+[b'\x80\x00\x00\x00', ['main.py']]
+[b'\x96\x00\x00\x00', ['main.py']]
+[b'\xb6\x00\x00\x00', ['main.py']]
+[b'\xc6\x00\x00\x00', ['main.py']]
+[b'\xcf\x00\x00\x00', ['main.py']]

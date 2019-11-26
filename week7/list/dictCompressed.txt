@@ -1,0 +1,6 @@
+from os import listdirfrom os.path import isfile, joinimport itertoolsimport osimport re
+[0, ['main.py']]
+[22, ['main.py']]
+[54, ['main.py']]
+[70, ['main.py']]
+[79, ['main.py']]

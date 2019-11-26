@@ -1,0 +1,5 @@
+['from os import listdir', ['main.py']]
+['from os.path import isfile, join', ['main.py']]
+['import itertools', ['main.py']]
+['import os', ['main.py']]
+['import re', ['main.py']]
