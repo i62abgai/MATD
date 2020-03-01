@@ -27,14 +27,19 @@ def readFile(folderPrePath, fileName):
             proccessedWords.append(line)
 
     freq = collections.Counter(proccessedWords)
-
+    print(freq)
+    input()
     for index, obj in enumerate(freq):
         if obj in tdMatrix:
             tdMatrix[obj].append([fileName, freq[obj]])
         else:
             tdMatrix[obj] = []
             tdMatrix[obj].append([fileName, freq[obj]])
-
+            
+def dot(d1, d2):
+   if len(d1) != len(d2):
+      return 0
+   return sum(i[0] * i[1] for i in zip(d1, d2))
 
 def compute_inverse_frequency():
     global tdMatrix, nDocs
@@ -93,7 +98,6 @@ def main():
         
     else:
         print("Usage: \n main.py \"folder\" \"destination folder\" ")
-
 
 if __name__ == "__main__":
     main()
